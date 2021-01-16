@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  INSTANCE_CONNECTION_NAME: dYdkfgVP6vn3Nx20gLbkWsboDa8rsKbRzNxjFSlRGNTP2RX7LABwZ+0sbRO7SR+RhyAUTYCLtCDH9yDUc3LpYONY51o/JIBnYKR9h2JDjww1MtkAYp6LL/Fvl4bGLTe/.p1kp61dsdChjPugF.6BKllnRXSa3mf3pn8UUy+Q==
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: mystok-simple-cloudsqlproxy-env
+# kubesec:v:3
+# kubesec:gcp:projects/mystok-299012/locations/global/keyRings/mystok-simple-keyring/cryptoKeys/mystok-simple-key:CiQAMelvCm/jL8he9cv+6HEiiYtrCkWkGABvmMxifioCr3rfRu8SSQDxWPp48hMcaE0FYKFoE6R7NJhO68BQxqPwhQ8pLOdy4dOccxNkKofHZUzjKAPvNTtTPjJrw2GJguFr1T0s+N/j+YaKVvOH1eg=
+# kubesec:mac:Dc1ViFlOMs0m9LX6.+i42mXkIjliZlPo02XXNiA==
+
