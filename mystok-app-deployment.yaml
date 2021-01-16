@@ -49,13 +49,13 @@ spec:
           mountPath: /var/secrets/google
         env:
         - name: GOOGLE_APPLICATION_CREDENTIALS
-          value: /var/secrets/google/mystok-simple-gke-to-cloudstorage.json
+          value: /var/secrets/google/service-account-app.json
       - image: gcr.io/cloudsql-docker/gce-proxy:1.17
         name: cloud-sql-proxy
         command:
           - "/cloud_sql_proxy"
           - "-instances=$INSTANCE_CONNECTION_NAME=tcp:3306"
-          - "-credential_file=/secrets/service_account.json"
+          - "-credential_file=/secrets/service-account-cloudsqlproxy.json"
         securityContext:
           runAsNonRoot: true
         volumeMounts:
